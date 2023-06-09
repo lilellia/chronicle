@@ -11,7 +11,7 @@ from typing import Any, Iterator
 
 from chronicle.configuration import Config
 from chronicle.parser import get_api, submission_asdict
-from chronicle.path_utils import datafile_exists
+from chronicle.utils import datafile_exists
 
 
 HERE = Path(__file__).parent
