@@ -4,13 +4,16 @@
 
 ## Installation
 
-After cloning this repository, simply run
+After cloning this repository...
 
+- Install necessary Python packages
 ```bash
 python3 -m pip install -r requirements.txt
 ```
 
-You will also need to install the [Firefox webdriver](https://github.com/mozilla/geckodriver/releases/) and ensure that it is on the system PATH. (Required for `selenium`.)
+- Install the [Firefox webdriver](https://github.com/mozilla/geckodriver/releases/) and ensure that it is on the system PATH. (Required for `selenium`.)
+
+- Update the included `example.env` file to include Reddit API credentials. It may also be beneficial to rename this file simply to `.env`. For more information, see the "Prerequisites" section of [PRAW's documentation](https://praw.readthedocs.io/en/stable/getting_started/quick_start.html).
 
 ## Usage
 
