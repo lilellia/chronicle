@@ -12,7 +12,7 @@ def main():
 
     with open(args.outfile, "w+", encoding="utf-8") as f:
         for rank, id_ in get_all_post_ids(args.subreddit):
-            f.write(f"{rank} -> {id_}")
+            f.write(f"{rank} -> {id_}\n")
 
 
 if __name__ == "__main__":
