@@ -32,7 +32,7 @@ def submission_asdict(submission: Submission, *, preserve_comments: bool = False
         "edited": submission.edited,
         "id": submission.id,
         "is_self": submission.is_self,
-        "flair": submission.link_flair_text,
+        "flair": submission.link_flair_text or "[noflair]",
         "locked": submission.locked,
         "name": submission.name,
         "comments": {
